@@ -7,7 +7,7 @@ import SkillMatrix from "./ui/Skill-MatrixLogo";
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-3xl bg-slate-600 p-4 md:h-52">
+      <div className="flex h-20 shrink-0 items-end rounded-3xl bg-indigo-600 p-4 md:h-52">
         {/**skill matrix logo should be here */}
         <SkillMatrix />
         {/**further refining later*/}

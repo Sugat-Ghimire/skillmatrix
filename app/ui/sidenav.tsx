@@ -2,14 +2,23 @@ import Link from "next/link";
 import NavLinks from "@/app/ui/nav-links";
 
 import { PowerIcon } from "@heroicons/react/24/outline";
+import { inter } from "./fonts";
 
 export default function SideNav() {
   return (
     <div className="w-70 flex h-full flex-col px-3 py-4 md:px-2">
       <Link
-        className="mb-4 flex h-20 items-end justify-start rounded-2xl bg-slate-600 p-4 md:h-40"
+        className="mb-4 flex h-20 items-end justify-start rounded-2xl bg-blue-700 p-4 md:h-40"
         href="/"
-      ></Link>
+      >
+        <div>
+          <h1
+            className={`${inter.className} text-3xl text-cyan-100 font-semibold`}
+          >
+            Skill Matrix
+          </h1>
+        </div>
+      </Link>
       <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-3">
         <NavLinks />
 

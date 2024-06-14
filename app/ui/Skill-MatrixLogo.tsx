@@ -5,7 +5,7 @@ export default function SkillMatrix() {
     <div
       className={`${roboto.className} flex flex-row items-center leading-none text-white`}
     >
-      <p className="text-[44px] ">Skill Matrix</p>
+      <p className="text-[60px]">Skill Matrix</p>
     </div>
   );
 }

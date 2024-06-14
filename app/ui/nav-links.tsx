@@ -55,13 +55,13 @@ const applyIcon = () => {
 };
 
 const links = [
-  { name: "", href: "/dashboard", icon: testIcon },
+  { name: "Take Test", href: "/dashboard", icon: testIcon },
   {
-    name: "",
+    name: "Ask Ai",
     href: "/dashboard/AskAi",
     icon: askAI,
   },
-  { name: "", href: "/dashboard/Apply", icon: applyIcon },
+  { name: "Apply", href: "/dashboard/Apply", icon: applyIcon },
 ];
 
 export default function NavLinks() {
