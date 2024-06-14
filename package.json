@@ -1,26 +1,40 @@
 {
-  "name": "skillmatrix",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown .",
+    "start": "next start"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "@ai-sdk/google": "^0.0.20",
+    "@google/generative-ai": "^0.12.0",
+    "@heroicons/react": "^2.0.18",
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/node": "20.5.7",
+    "ai": "^3.1.31",
+    "autoprefixer": "10.4.15",
+    "clsx": "^2.0.0",
+    "next": "^14.0.2",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.14",
+    "@vercel/style-guide": "^5.0.1",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0",
+    "eslint-config-prettier": "9.0.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "0.5.4"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   }
 }
