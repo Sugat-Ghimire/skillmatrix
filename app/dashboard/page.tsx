@@ -35,9 +35,12 @@ export default function Page() {
   const onAnswerSelected = (ans: string, id: number) => {
     setChecked(true);
     setSelectedAnsIndex(id);
-    setSelectedAns(ans === correctAnswer);
+    if (ans === correctAnswer) {
+      setSelectedAns(true);
+    } else {
+      setSelectedAns(false);
+    }
   };
-
   const nextQn = () => {
     setSelectedAnsIndex(null);
     setResult((prev) => ({

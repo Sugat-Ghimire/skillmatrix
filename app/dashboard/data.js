@@ -2,6 +2,12 @@ export const quiz = {
   totalQuestions: 5,
   questions: [
     {
+      id: 2,
+      question: "Which of the following is a JavaScript framework?",
+      answers: ["Django", "Laravel", "React", "Flask"],
+      correctAnswer: "React",
+    },
+    {
       id: 1,
       question: "What does HTML stand for?",
       answers: [
@@ -12,12 +18,7 @@ export const quiz = {
       ],
       correctAnswer: "Hyper Text Markup Language",
     },
-    {
-      id: 2,
-      question: "Which of the following is a JavaScript framework?",
-      answers: ["Django", "Laravel", "React", "Flask"],
-      correctAnswer: "React",
-    },
+
     {
       id: 3,
       question: "What is the primary function of CSS?",
