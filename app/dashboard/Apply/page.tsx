@@ -1,6 +1,6 @@
-// pages/companies.js
 "use client";
 import React from "react";
+
 const companies = [
   {
     name: "Tech Solutions",
@@ -48,6 +48,25 @@ const JobListing = () => {
             </button>
           </div>
         ))}
+        <div className="flex justify-between items-center mt-6">
+          <button className="bg-gray-200 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-200">
+            Previous
+          </button>
+          <div className="flex space-x-2">
+            <button className="bg-gray-200 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-200">
+              1
+            </button>
+            <button className="bg-gray-200 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-200">
+              2
+            </button>
+            <button className="bg-gray-200 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-200">
+              3
+            </button>
+          </div>
+          <button className="bg-gray-200 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-200">
+            Next
+          </button>
+        </div>
       </div>
     </div>
   );

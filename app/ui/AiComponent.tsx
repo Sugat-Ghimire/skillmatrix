@@ -60,7 +60,7 @@ const ChatInterface = () => {
       </nav>
 
       <main className="flex-grow p-6 flex flex-col items-center overflow-y-auto">
-        <form onSubmit={handleSubmit} className="flex gap-3 sticky top-0">
+        <form onSubmit={handleSubmit} className="flex gap-3 sticky top-0 mb-5">
           <input
             className="flex-grow rounded-xl border p-3 bg-gray-50 text-gray-900"
             value={input}

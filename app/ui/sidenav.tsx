@@ -8,12 +8,12 @@ export default function SideNav() {
   return (
     <div className="w-70 flex h-full flex-col px-3 py-4 md:px-2">
       <Link
-        className="mb-4 flex h-20 items-end justify-start rounded-2xl bg-blue-700 p-4 md:h-40"
+        className="mb-4 flex h-20 items-end justify-start rounded-2xl p-4 md:h-20 bg-gray-50"
         href="/"
       >
         <div>
           <h1
-            className={`${inter.className} text-3xl text-cyan-100 font-semibold`}
+            className={`${inter.className} text-3xl text-black-500 font-bold`}
           >
             Skill Matrix
           </h1>

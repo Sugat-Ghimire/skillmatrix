@@ -52,7 +52,7 @@ const CoursePage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 py-10">
+    <div className="min-h-screen bg-cyan-50 py-10">
       <div className="max-w-6xl mx-auto bg-white p-6 rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">
           Courses Offered
@@ -75,10 +75,10 @@ const CoursePage: React.FC = () => {
               <h2 className="text-xl font-semibold text-gray-900">
                 {course.title}
               </h2>
-              <p className="text-gray-600 mb-2">{course.description}</p>
-              <p className="text-gray-600 mb-2">Duration: {course.duration}</p>
-              <p className="text-gray-600 mb-2">Level: {course.level}</p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-1">{course.description}</p>
+              <p className="text-gray-600 mb-1">Duration: {course.duration}</p>
+              <p className="text-gray-600 mb-1">Level: {course.level}</p>
+              <p className="text-gray-600 mb-3">
                 Instructor: {course.instructor}
               </p>
               <button className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-200">
