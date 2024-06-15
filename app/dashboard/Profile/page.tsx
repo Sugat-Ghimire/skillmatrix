@@ -39,6 +39,7 @@ const Profile = () => {
         {/* Main content section */}
         <div className="bg-white p-6 rounded-lg shadow-lg">
           {/* Resume section (placeholder) */}
+          <img src="/images/profile.png" alt="profile of an user" />
         </div>
       </main>
     </div>
