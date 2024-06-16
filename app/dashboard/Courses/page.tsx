@@ -68,7 +68,7 @@ const CoursePage: React.FC = () => {
               <img
                 src={course.imgSrc}
                 alt="Image of an instructor"
-                className="w-full h-32 object-cover rounded-t-lg mb-8"
+                className="w-full h-32 object-cover rounded-lg mb-8"
                 width={500}
                 height={700}
               />
